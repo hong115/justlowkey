@@ -1,0 +1,107 @@
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header#header {
+  background: #111;
+  color: #fff;
+  padding: 2em 1em 1em 1em;
+  text-align: center;
+}
+
+header#header h1 {
+  margin: 0 0 0.5em 0;
+  font-size: 2.5em;
+  color: #fff;
+}
+
+header#header p {
+  margin: 0;
+  font-size: 1.1em;
+  color: #ccc;
+}
+
+main {
+  flex: 1 0 auto;
+  max-width: 800px;
+  margin: 2em auto;
+  background: #181818;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+  padding: 2em 2em 1em 2em;
+}
+
+main h2 {
+  color: #fff;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+main ul {
+  margin: 0 0 1.5em 1.5em;
+  padding: 0;
+}
+
+main li {
+  margin-bottom: 0.5em;
+}
+
+main p {
+  margin-bottom: 1.5em;
+}
+
+footer#footer {
+  background: #111;
+  color: #ccc;
+  text-align: center;
+  padding: 1em 0;
+  font-size: 1em;
+  flex-shrink: 0;
+}
+
+footer#footer ul.icons {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0.5em 0;
+}
+
+footer#footer ul.icons li {
+  display: inline-block;
+  margin: 0 0.75em;
+}
+
+footer#footer ul.icons a {
+  color: #1cb495;
+  text-decoration: none;
+  border-bottom: 1px dotted #1cb495;
+  transition: color 0.2s;
+}
+
+footer#footer ul.icons a:hover {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+a {
+  color: #fff;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #1cb495;
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 1em 0.5em;
+  }
+  header#header {
+    padding: 1.5em 0.5em 0.5em 0.5em;
+  }
+} 
